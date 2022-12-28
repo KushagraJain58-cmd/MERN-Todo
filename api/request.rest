@@ -1,0 +1,31 @@
+GET http://localhost:3000/todos
+
+### 
+
+POST  http://localhost:3000/todo/new
+Content-Type: application/json
+
+{
+    "text":"Get the milk"
+}
+
+###
+
+DELETE http://localhost:3000/todo/delete/63a88e6473a4bfcfd37d0a69
+
+###
+
+PUT http://localhost:3000/todo/complete/63a757965593cf54fc9f5b54
+
+###
+GET http://localhost:3000/todo/login
+
+### 
+POST http://localhost:3000/todo/register
+Content-Type: application/json
+
+{
+    "name":"Hel",
+    "email":"heo@gmail.com",
+    "pass":"luha"
+}
